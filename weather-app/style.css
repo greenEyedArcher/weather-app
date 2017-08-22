@@ -1,0 +1,63 @@
+body {
+  font-size: 16px;
+}
+
+.container {
+  max-width: 980px;
+}
+
+/* Header */
+
+.header {
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.header h2 {
+  font-size: 30px;
+}
+
+/*Forecast*/
+.forecast {
+  margin-top: 100px;
+}
+
+.forecast .container {
+  text-align: center;
+}
+
+ul {
+  font-size: 1.5em;
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding: 10px 0 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.weather-icon img {
+  width: 55px;
+  height: auto;
+  margin-right: 25px;
+}
+
+/* Window */
+
+.window {
+  margin-top: 50px;
+}
+
+.window .container {
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  border: 10px groove #ddd;
+}
+
+/* Media queries*/
